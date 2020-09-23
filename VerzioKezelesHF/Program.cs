@@ -48,6 +48,11 @@ namespace VerzioKezelesHF
             }
             Console.WriteLine("A beírt számok átlaga: {0}", szumSajatTomb / szamok.Length);
             Console.ReadKey();
+            Console.Clear();
+
+            Console.WriteLine("A tömb legkisebb eleme: {0}", szamok.Min());
+            Console.WriteLine("A tömb legnagyobb eleme: {0}", szamok.Max());
+            Console.ReadKey();
         }
     }
 }
