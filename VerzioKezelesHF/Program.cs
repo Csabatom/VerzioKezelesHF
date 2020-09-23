@@ -10,7 +10,7 @@ namespace VerzioKezelesHF
     {
         static void Main(string[] args)
         {
-            int[] tizSzam = new int[10];
+            /*int[] tizSzam = new int[10];
             double szum = 0;
             for (int i = 1; i <= tizSzam.Length; i++)
             {
@@ -27,7 +27,7 @@ namespace VerzioKezelesHF
             }
             Console.WriteLine("A beírt számok átlaga: {0}", szum/tizSzam.Length);
             Console.ReadKey();
-            Console.Clear();
+            Console.Clear();*/
 
             Console.WriteLine("Adja meg hogy hány elemes legyen a tömb");
             int tombHossz = int.Parse(Console.ReadLine());
